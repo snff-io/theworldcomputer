@@ -10,5 +10,3 @@ class PairGroup:
 
     def get_neighbor(self, direction):
         return getattr(self, direction, None)
-
-__all__ = {PairGroup}

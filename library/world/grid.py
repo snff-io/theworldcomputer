@@ -27,4 +27,3 @@ class Grid():
                 empty_layer = [[None] * self.layer_size for _ in range(self.layer_size)]
                 self.layers.append(empty_layer)
     
-__all__ = { Grid }

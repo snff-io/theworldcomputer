@@ -51,4 +51,3 @@ class Pair:
     def __str__(self):
         return f"{self.stability}{self.topType}{self.bottomType};{self.magnitude:.2f};{self.pressure:.2f};{self.layer}:{self.x}:{self.y}"
 
-__all__ = { Pair }

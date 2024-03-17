@@ -80,3 +80,4 @@ def flip_pair(flip, pair_group, grid):
                 neighbor = pair_group.get_neighbor(direction)
                 if neighbor is not None:
                     neighbor.magnitude += 0.1 / neighbors
+
